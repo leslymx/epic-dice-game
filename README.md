@@ -1,1 +1,1 @@
-# pic game
+# epic dice game
