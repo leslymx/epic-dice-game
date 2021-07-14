@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
 :root {
   --white-color: #fff;
   --secondary-color: #C56183;
+  --player-winner-color: #2C2E43;
 }
 
 * {
@@ -160,7 +162,7 @@ main {
 }
 
 .player--winner {
-  background-color: #2C2E43;
+  background-color: var(--player-winner-color);
 }
 
 .player--winner .name {
