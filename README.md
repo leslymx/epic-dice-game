@@ -1,14 +1,22 @@
 # Epic dice game
+👀 Juega aquí https://cout-epicdicegame.netlify.app/
 
-**Desde consola ejecuta con:**
+## ¿Qué necesito hacer?
+Clona la repo, ubicate dentro de la carpeta y para verlo en tu navegador ejecuta con live-server en la consola 💻
+
 ```
-live-server
+  live-server
 ```
+Ingresa a tu localhost:port y verás lo siguiente 
+
 **Vista del juego:**
 ![](https://i.imgur.com/NjHFiaz.png)
 
-### ¿En qué consiste?
-> **Nota:** El dado es de 6 caras, es decir de tipo cubo.
+### ¿En qué consiste el juego?
+**REGLAS** ⚠
+* Si te cae el numero 1 en el dado **pierdes el turno**, pasa al siguiente jugador y viceversa.
+* Puedes girar el dado las veces que quieras como X jugador, pero si te cae el 1 pierdes todo lo acumulado en **current.**
+* Para **guardar los puntos** que llevas acumulados en el current debes de presionar el **HOLD**
 
-Giramos los dados con el boton de Roll Dice, si al tirar nos arroja 1, el turno será para el siguiente jugador y viceversa.
-El boton de Hold nos guarda la puntuación. El primero en llegar a 20 puntos gana el juego. 🏆
+**¿COMO PUEDO GANAR?** 🥇
+* El primer jugador que acumule 20 puntos será el ganador y el juego se reiniciará.
